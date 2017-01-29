@@ -45,7 +45,7 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #185a9d;
-  background-color: #ecf0f1;
+  background-color: #ffffff;
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -91,7 +91,7 @@
 }
 
 .text {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .announcement-text {
