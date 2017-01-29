@@ -51,10 +51,10 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html">Oznamy</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="contact.html">Kontakt</a>
                     </li>
                 </ul>
@@ -68,12 +68,14 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                
-                <h3><span class="glyphicon glyphicon-comment"></span> Intro</h3>
-                <small class="pull-right">23.1.2017</small>
-                <p class="announcement-text">Prvá hodina so mnou prebehla 23.1.2017. Na všetky nasledujúce hodiny si noste zošity s poznámkami a aktuálne verzie projektov ktoré máte rozpracované.</p>
+            <div class="col-lg-12 text-center">
+                <h1>Viktória Tibenská</h1>
+                <p class="lead">tibenska.vik@gmail.com</p>
+                <p class="text">Akékoľvek otázky alebo pripomienky môžete posielať na vyššie uvedenú adresu.</p>
 
+                <p class="text">Pri formulácii e-mailu vždy jasne a zrozumiteľne uveďte, aký máte problém, alebo otázku. Do prílohy pripojte súbory, ktorých sa táto otázka týka v skomprimovanej forme buď vo formáte <code>.rar</code> alebo <code>.zip</code>. V prípade otázok týkajúcich sa HTML stránok vždy pripojte skomprimovaný celý priečinok, v ktorom sa váš projekt nachádza.</p>
+
+                <a class="btn btn-default" href="http://www.win-rar.com/download.html?&L=0" data-toggle="tooltip" title="Nástroj na kompresiu a dekompresiu súborov">WinRar</a>
             </div>
         </div>
         <!-- /.row -->
@@ -87,7 +89,11 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-
+    <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
+    });
+    </script>
 </body>
 
 </html>
