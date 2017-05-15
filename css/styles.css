@@ -111,3 +111,9 @@ body {
     font-weight: 300;
     line-height: 1.4;
 }
+
+.image {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
