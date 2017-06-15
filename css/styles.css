@@ -115,5 +115,13 @@ body {
 .image {
   display: block;
   margin: auto;
+}
+
+#house {
   width: 40%;
+}
+
+#circles {
+  width: 90%;
+  border: 4px solid black;
 }
